@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
     <title>CBM</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
     <section class="welcome">
@@ -47,11 +52,11 @@
             
         </ul>
         <div class="training__video">
-            <video muted autoplay loop>
+            <video preload="auto" autoplay loop muted webkit-playsinline playsinline>
                 <source src="./assets/Gym-training.mp4" type="video/mp4">
             </video>
              <img src="./assets/svgs/adorno-1.svg" alt="lustracion de adorno">
-           <p class="text-body">El objetivo final es ayudar a cada jugador  alcanzar su máximo potencial, tanto en la cancha como fuera de élla.</p>
+           <p class="text-body">El objetivo final es ayudar a cada jugador  alcanzar su máximo potencial, <span class="orange">tanto en la cancha como fuera de élla.</span> </p>
            <div class="training__video-capa"></div>
         </div>
     </section>
@@ -123,19 +128,25 @@
             </div>
             <ul class="contact__links">
                 <li>
-                    <img src="./assets/svgs/whastapp-icon.svg" alt="icono de whatsapp">
+                    <a href="">
+                        <img src="./assets/svgs/whastapp-icon.svg" alt="icono de whatsapp">
+                    </a>
                 </li>
                 <li>
-                    <img src="./assets/svgs/instagram-icon.svg" alt="icono de instagram">
+                    <a href="https://www.instagram.com/cbm.mid/">
+                        <img src="./assets/svgs/instagram-icon.svg" alt="icono de instagram">
+                    </a>
                 </li>
                 <li>
-                    <img src="./assets/svgs/facebook-icon.svg" alt="icono de facebook">
+                    <a href="https://www.facebook.com/CBMelite?mibextid=LQQJ4d">
+                        <img src="./assets/svgs/facebook-icon.svg" alt="icono de facebook">
+                    </a>
                 </li>
             </ul>
         </div>
-        <div class="peks">
+        <a href="https://instagram.com/lpeksl?igshid=YWJhMjlhZTc=" class="peks">
             powered by: <img src="./assets/svgs/peks-logo-watermark.svg" alt="logo de el peks">
-        </div>
+        </a>
     </section>
 
     <script src="/js/main.js"></script>

@@ -26,7 +26,7 @@
   --fs-main: clamp(40rem,15vw,65rem);
   --fs-title: clamp(9rem,4.46vw,20rem);
   --fs-subtitle: clamp(19rem,6vw,30rem);
-  --fs-body: clamp(15.5rem, 5vw,20.5rem);
+  --fs-body: clamp(15.5rem, 5vw,18rem);
   --fs-details: clamp(10rem,4.26vw,15rem);
   --fs-small: clamp(5.5rem,2.93vw,8rem);
 }

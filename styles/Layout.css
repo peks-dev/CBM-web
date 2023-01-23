@@ -368,6 +368,7 @@ h2 {
     max-width: 120rem;
     height: auto;
     padding-bottom: 20rem;
+    cursor: pointer;
 }
 
 /* Ultima seccion */
@@ -440,6 +441,7 @@ h2 {
     align-items: center;
     justify-content: center;
     width: 90%;
+    transition: all ease 0.5s linear;
 }
 .peks img{
     width: clamp(25rem,4vw,40rem);
@@ -515,7 +517,7 @@ h2 {
     .training__video{
         flex-direction: row;
         position: absolute;
-        bottom: 0;
+        bottom: -25rem;
         left: 5%;
         width: 320rem;
         height: 200rem;
