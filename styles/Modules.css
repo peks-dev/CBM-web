@@ -1,0 +1,38 @@
+/*Global settings*/
+h2 {
+    font-family: var(--tipo-secundaria);
+    color: var(--primary);
+    text-transform: uppercase;
+}
+.text-main{
+    font-family: var(--tipo-principal);
+    color: var(--white);
+    text-transform: uppercase;
+}
+.text-body{
+    font-family: var(--tipo-principal);
+    color: var(--white);
+    line-height: normal;
+}
+.scroll-text{
+    font-family: var(--tipo-principal);
+    color: var(--white);
+}
+
+/* Components */
+.text-subtitle{
+    font-family: var(--tipo-principal);
+    color: var(--acent);
+    text-transform: uppercase;
+    background-image: url(/assets/svgs/underline.svg);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.cards__item p{
+    font-family: var(--tipo-principal);
+}
+
+.button-item{
+    color: var(--white);
+}

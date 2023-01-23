@@ -1,0 +1,17 @@
+.cards__item-header--inverted{
+    flex-direction: row-reverse;
+}
+.text-body--right{
+    text-align: right;
+}
+
+.button-item--active{
+    color: var(--acent);
+}
+.map__buttons-item--active{
+    background-image: url("../assets/svgs/underline-white.svg");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: var(--white);
+}

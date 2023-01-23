@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <title>CBM</title>
+</head>
+<body>
+    <section class="welcome">
+        <img class="welcome__logo" src="./assets/logos/logo-welcome.svg" alt="logo clinica de baloncesto mexicano">
+
+        <h1 class="welcome__title">Desarrollo de jugadores <spam class="welcome__title-tagline">ELITE</spam></h1>
+        <div class="welcome__img">
+            <img src="./assets/basketball-hoopers.webp" alt="ilustracion de 3 basketbolistas">
+        </div>
+        <div class="welcome__scroll">
+            <span class="scroll-text">scroll</span>
+            <img src="./assets/svgs/arrow-down.svg" alt="flecha apuntando para abajo">
+        </div>
+    </section>
+    <section class="training">
+        <header class="training__header">
+            <h2>Entrenamientos</h2>
+            <p class="text-main">work out</p>
+            <div class="training__scroll">
+                <img src="./assets/svgs/horizontal-scroll.svg" alt="flecha indicadora para scroll horizontal">
+                <span class="scroll-text">Desliza</span>
+            </div>
+        </header>
+        <ul class="cards">
+            <li class="cards__item">
+                <div class="cards__item-header">
+                    <h3 class="text-subtitle">Técnico</h3>
+                    <img src="./assets/images/basketbal-illustracion.webp" alt="un dibujo de un balon de basket">
+                </div>
+                <p class="text-body">Mejoramos el tiro, bote, crossovers, combos, lectura de juego  entre otros aspectos </p>
+            </li>
+            <li class="cards__item">
+                <div class="cards__item-header cards__item-header--inverted">
+                    <h3 class="text-subtitle">Físico</h3>
+                    <img src="./assets/images/mancuerna-ilustracion.webp" alt="Un dibujo de manquerna">
+                </div>
+                <p class="text-body text-body--right">tiempos de fortalecimiento y condicionamiento muscular en MBW centro de calistenia y street work out</p>
+            </li>
+            
+        </ul>
+        <div class="training__video">
+            <video muted autoplay loop>
+                <source src="./assets/Gym-training.mp4" type="video/mp4">
+            </video>
+             <img src="./assets/svgs/adorno-1.svg" alt="lustracion de adorno">
+           <p class="text-body">El objetivo final es ayudar a cada jugador  alcanzar su máximo potencial, tanto en la cancha como fuera de élla.</p>
+           <div class="training__video-capa"></div>
+        </div>
+    </section>
+    <section class="categorys">
+        <header class="categorys__header">
+            <h2>categorias</h2>
+            <p class="text-main">edades</p>
+        </header>
+        <ul id="slider" class="categorys__tabs">
+            <li class="categorys__tabs-item">
+                <p class="text-subtitle">8 - 11</p>
+                <img src="./assets/images/category-1.webp" alt="ilustracion de niño bassquetbolista">
+            </li>
+            <li class="categorys__tabs-item">
+                <p class="text-subtitle">11 - 14</p>
+                <img src="./assets/images/category-2.webp" alt="ilustracion de joven basquetbolista">
+            </li>
+            <li class="categorys__tabs-item">
+                <p class="text-subtitle">14 - 19+</p>
+                <img src="./assets/images/category-3.webp" alt="ilustracion de adolecente basquetbolista">
+            </li>
+        </ul>
+        <ul class="categorys__buttons">
+            <li class="categorys__buttons-item">
+                <button class="button-item button-item--active" id="mini">Mini</button></li>
+            <li class="categorys__buttons-item">
+                <button class="button-item" id="infantil">Infantil</button></li>
+            <li class="categorys__buttons-item">
+                <button class="button-item" id="junior">Junior</button></li>
+        </ul>
+    </section>
+    <section class="couch">
+        <header class="couch__header">
+            <h2>Entrenador</h2>
+            <p class="text-main">Couch</p>
+        </header>
+        <div class="couch__img">
+            <img src="./assets/images/lucas-foto.webp" alt="entrenador lucas metiendo canasta">
+            <div class="couch__img-capa"></div>
+            <h3 class="text-subtitle">lucas</h3>
+            <p>Con su experiencia, comenzó a entrenar a jóvenes y adultos con el objetivo de que mejoren no solo su técnica en el campo, sino también su físico y mentalidad.</p>
+        </div>
+    </section>
+    <section class="map">
+        <header class="map__header">
+            <h2>Ubicaciones</h2>
+            <p class="text-main">Sucursales</p>
+        </header>
+        <iframe class="map__embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.2660928479795!2d-89.65288988547302!3d21.02203639338459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5674427920b553%3A0x8681a3c0ce522b08!2sPARQUE%20Conquistador!5e0!3m2!1ses-419!2smx!4v1674263062278!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map__buttons">
+            <button id="montejo" class="map__buttons-item map__buttons-item--active">
+                Franc.Montejo
+            </button>
+            <button id="altabrisa" class="map__buttons-item">
+                Altabrisa
+            </button>
+        </div>
+    </section>
+    <section class="contact">
+        <header class="contact__header">
+            <h2>Contacto</h2>
+            <p class="text-main">links</p>
+            <img src="./assets/logos/CBM-logo-pro.svg" alt="logo de clinica de baloncesto mexicano">
+        </header>
+        <div class="contact__container">
+            <div class="contact__img">
+                <img class="contact__img-adorno" src="./assets/svgs/adorno-2.svg" alt="adorno con degradado naranja">
+                <img class="contact__img-foto" src="./assets/team-1.jpg" alt="foto del team cbm despues de un partido">
+            </div>
+            <ul class="contact__links">
+                <li>
+                    <img src="./assets/svgs/whastapp-icon.svg" alt="icono de whatsapp">
+                </li>
+                <li>
+                    <img src="./assets/svgs/instagram-icon.svg" alt="icono de instagram">
+                </li>
+                <li>
+                    <img src="./assets/svgs/facebook-icon.svg" alt="icono de facebook">
+                </li>
+            </ul>
+        </div>
+        <div class="peks">
+            powered by: <img src="./assets/svgs/peks-logo-watermark.svg" alt="logo de el peks">
+        </div>
+    </section>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
