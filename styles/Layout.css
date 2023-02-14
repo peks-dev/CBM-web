@@ -133,7 +133,7 @@ h2 {
 /* section 2 */
 .training{
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     align-items: center;
     gap: 20rem;
     width: 100vw;
@@ -142,22 +142,43 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
+    text-align: center;
+    position: sticky;
+    top: 0;
     width: 100%;
-    max-width: 180rem;
     margin: 0 auto;
-    padding-left: 5%;
+    padding: 20rem 0 60rem 0;
 }
 .training__header p{
-    width: 50%;
-}
-.training__scroll{
-    width: 40%;
-    align-self: flex-end;
-}
-.training__scroll img{
-    width: clamp(43rem,20vw,70rem);
+    word-break: keep-all;
+    width: 90%;
     margin: 0 auto;
 }
+.training__scroll{
+    width: 90%;
+    position: relative;
+}
+.training__scroll-content{
+    padding: 75rem 0 40rem 0;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 50rem;
+    width: 90%;
+    max-width: 400rem;
+    margin: 0 auto;
+}
+.training__scroll-content h3{
+    text-align: center;
+}
+
+.rigth{
+    align-self: flex-end;
+}
+    
+.left{
+   align-self: flex-start;
+}
+
 .training__video{
     display: flex;
     flex-direction: column;
@@ -167,6 +188,7 @@ h2 {
     width: 70%;
     height: 70vh;
     margin: 0 auto;
+    margin: 50rem 0;
 }
 .training__video video{
     position: absolute;
@@ -459,9 +481,7 @@ h2 {
         text-align: center;
         width: 80%;
     }
-    .training__scroll{
-        align-self: flex-start;
-    }
+
     .cards{
         width: 50%;
     }
@@ -508,15 +528,10 @@ h2 {
     /* section training*/
     .training{
         position: relative;
-        align-items: flex-start;
         justify-content: space-between;
-    }
-    .training__header{
-        margin: 0;
     }
     .training__video{
         flex-direction: row;
-        position: absolute;
         bottom: -25rem;
         left: 5%;
         width: 320rem;
@@ -525,9 +540,6 @@ h2 {
     }
     .training__video video{
         position: relative;
-    }
-    .training__scroll{
-        visibility: hidden;
     }
     .cards{
         width: 60%;

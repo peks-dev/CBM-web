@@ -36,3 +36,8 @@ h2 {
 .button-item{
     color: var(--white);
 }
+
+/* Training section */
+.training__header{
+    background: linear-gradient(rgb(13, 7, 1, 100%),rgb(13, 7, 1, 100%), rgb(13, 7, 1, 0%));
+}
