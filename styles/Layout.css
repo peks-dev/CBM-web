@@ -288,6 +288,28 @@ h2 {
     font-size: var(--fs-subtitle);
 }
 
+/* /////// */
+.femenil{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+    width: 100vw;
+    height: 100vh;
+}
+.femenil header{
+    width: 90%;
+}
+.femenil img{
+    height: clamp(100rem,40%,210rem);
+}
+.femenil__text{
+    width: 90%;
+}
+
+
 /* Seccion 4 */
 .couch{
     margin-top: 50rem;
@@ -560,6 +582,20 @@ h2 {
     }
     .categorys__buttons{
         left: 30%;
+    }
+    /* Section femenil */
+    .femenil{
+        flex-direction: row;
+        
+    }
+    .femenil img{
+        width: 50%;
+    }
+    .femenil header{
+        width: 90%;
+    }
+    .femenil__text{
+        width: 40%;
     }
     /* Section couch */
     .couch__header{
